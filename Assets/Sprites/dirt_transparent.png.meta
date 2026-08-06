@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: d4dd332ee1ca24b528abdcf5612aa268
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 546416854941292656
+    second: dirt_transparent_0
+  - first:
+      213: 7559308682440032257
+    second: dirt_transparent_1
+  - first:
+      213: 412550290113604245
+    second: dirt_transparent_2
+  - first:
+      213: -4783834098680161176
+    second: dirt_transparent_3
+  - first:
+      213: 8562882518736811761
+    second: dirt_transparent_4
+  - first:
+      213: 660348608336950006
+    second: dirt_transparent_5
+  - first:
+      213: 580473807353392491
+    second: dirt_transparent_6
+  - first:
+      213: 3557718721782071305
+    second: dirt_transparent_7
+  - first:
+      213: 6877367465618409020
+    second: dirt_transparent_8
+  - first:
+      213: -6472802232092375730
+    second: dirt_transparent_9
+  - first:
+      213: 4109345387489626538
+    second: dirt_transparent_10
+  - first:
+      213: -3940738959283012421
+    second: dirt_transparent_11
+  - first:
+      213: -3590135821462745919
+    second: dirt_transparent_12
+  - first:
+      213: -3275215937722021694
+    second: dirt_transparent_13
+  - first:
+      213: 5418618058909485046
+    second: dirt_transparent_14
+  - first:
+      213: -9016186114325730930
+    second: dirt_transparent_15
+  - first:
+      213: -6866624550434090762
+    second: dirt_transparent_16
+  - first:
+      213: -9162488310640979647
+    second: dirt_transparent_17
+  - first:
+      213: 9110693489696580663
+    second: dirt_transparent_18
+  - first:
+      213: -7898281965116900851
+    second: dirt_transparent_19
+  - first:
+      213: -5998295086203118217
+    second: dirt_transparent_20
+  - first:
+      213: -6108938332275344881
+    second: dirt_transparent_21
+  - first:
+      213: 7862512118715439066
+    second: dirt_transparent_22
+  - first:
+      213: -154314973550870792
+    second: dirt_transparent_23
+  - first:
+      213: -7031000530397267976
+    second: dirt_transparent_24
+  - first:
+      213: 2018789031212700251
+    second: dirt_transparent_25
+  - first:
+      213: 3905407324523788672
+    second: dirt_transparent_26
+  - first:
+      213: 2717912301127103314
+    second: dirt_transparent_27
+  - first:
+      213: 2070959911310152334
+    second: dirt_transparent_28
+  - first:
+      213: 6959057253849301896
+    second: dirt_transparent_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dirt_transparent_0
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 446
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078df0a0c33459700800000000000000
+      internalID: 546416854941292656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt_transparent_1
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 458
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1004d5c123f08e860800000000000000
+      internalID: 7559308682440032257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt_transparent_2
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 439
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59aa4369d4ca9b500800000000000000
+      internalID: 412550290113604245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt_transparent_3
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 455
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c94cbab386c9db0800000000000000
+      internalID: -4783834098680161176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt_transparent_4
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 457
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f6b5be584875d670800000000000000
+      internalID: 8562882518736811761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt_transparent_5
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 411
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2f8d38f870a2900800000000000000
+      internalID: 660348608336950006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt_transparent_6
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 442
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6da7b03ad14e0800800000000000000
+      internalID: 580473807353392491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt_transparent_7
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 442
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900c39ee35e8f5130800000000000000
+      internalID: 3557718721782071305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt_transparent_8
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 414
+        width: 102
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36830aa541517f50800000000000000
+      internalID: 6877367465618409020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt_transparent_9
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 446
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4547ce0aacfb26a0800000000000000
+      internalID: -6472802232092375730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt_transparent_10
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 387
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa985b09bd3570930800000000000000
+      internalID: 4109345387489626538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt_transparent_11
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 393
+        width: 63
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbcb463abceaf49c0800000000000000
+      internalID: -3940738959283012421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt_transparent_12
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 425
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ccce42ed764d2ec0800000000000000
+      internalID: -3590135821462745919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt_transparent_13
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 415
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c8816d15781c82d0800000000000000
+      internalID: -3275215937722021694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt_transparent_14
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 8
+        width: 473
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f701de5a6cc23b40800000000000000
+      internalID: 5418618058909485046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt_transparent_15
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 401
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e892ec2bf7210e280800000000000000
+      internalID: -9016186114325730930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt_transparent_16
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 400
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f056613a59d4b0a0800000000000000
+      internalID: -6866624550434090762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt_transparent_17
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 410
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14153992d6d48d080800000000000000
+      internalID: -9162488310640979647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt_transparent_18
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 413
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73424d6557faf6e70800000000000000
+      internalID: 9110693489696580663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt_transparent_19
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 381
+        width: 41
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a355d466aa36290800000000000000
+      internalID: -7898281965116900851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt_transparent_20
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 365
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d54e04666c1cca0800000000000000
+      internalID: -5998295086203118217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt_transparent_21
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 330
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0af5fd04f0b83ba0800000000000000
+      internalID: -6108938332275344881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt_transparent_22
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 257
+        width: 83
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7dc365d114d1d60800000000000000
+      internalID: 7862512118715439066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt_transparent_23
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 150
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fef9f16953cbddf0800000000000000
+      internalID: -154314973550870792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt_transparent_24
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 110
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7761af44edc6e90800000000000000
+      internalID: -7031000530397267976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt_transparent_25
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 112
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5253e98ded240c10800000000000000
+      internalID: 2018789031212700251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt_transparent_26
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 69
+        width: 71
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089f279154bc23630800000000000000
+      internalID: 3905407324523788672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt_transparent_27
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 99
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 253785776d6f7b520800000000000000
+      internalID: 2717912301127103314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt_transparent_28
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 6
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8257b121178dbc10800000000000000
+      internalID: 2070959911310152334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt_transparent_29
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 7
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8830b43a3b9839060800000000000000
+      internalID: 6959057253849301896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dirt_transparent_0: 546416854941292656
+      dirt_transparent_1: 7559308682440032257
+      dirt_transparent_10: 4109345387489626538
+      dirt_transparent_11: -3940738959283012421
+      dirt_transparent_12: -3590135821462745919
+      dirt_transparent_13: -3275215937722021694
+      dirt_transparent_14: 5418618058909485046
+      dirt_transparent_15: -9016186114325730930
+      dirt_transparent_16: -6866624550434090762
+      dirt_transparent_17: -9162488310640979647
+      dirt_transparent_18: 9110693489696580663
+      dirt_transparent_19: -7898281965116900851
+      dirt_transparent_2: 412550290113604245
+      dirt_transparent_20: -5998295086203118217
+      dirt_transparent_21: -6108938332275344881
+      dirt_transparent_22: 7862512118715439066
+      dirt_transparent_23: -154314973550870792
+      dirt_transparent_24: -7031000530397267976
+      dirt_transparent_25: 2018789031212700251
+      dirt_transparent_26: 3905407324523788672
+      dirt_transparent_27: 2717912301127103314
+      dirt_transparent_28: 2070959911310152334
+      dirt_transparent_29: 6959057253849301896
+      dirt_transparent_3: -4783834098680161176
+      dirt_transparent_4: 8562882518736811761
+      dirt_transparent_5: 660348608336950006
+      dirt_transparent_6: 580473807353392491
+      dirt_transparent_7: 3557718721782071305
+      dirt_transparent_8: 6877367465618409020
+      dirt_transparent_9: -6472802232092375730
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
