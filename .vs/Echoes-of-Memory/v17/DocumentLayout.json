@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\echoes-of-memory\\assets\\scripts\\randomspawning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\randomspawning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\assets\\scripts\\powerupmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\powerupmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\assets\\scripts\\arrowbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\echoes-of-memory\\assets\\scripts\\arrowbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arrowbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\assets\\interfaces\\idamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|solutionrelative:assets\\interfaces\\idamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\assets\\scripts\\launcharrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\launcharrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\assets\\interfaces\\idamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|solutionrelative:assets\\interfaces\\idamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\assets\\scripts\\randomspawning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\randomspawning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\echoes-of-memory\\assets\\scripts\\poweruporb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\poweruporb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\assets\\scripts\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,31 +43,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PowerUpManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\PowerUpManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PowerUpManager.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\PowerUpManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PowerUpManager.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T04:32:56.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PowerUpOrb.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\PowerUpOrb.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PowerUpOrb.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\PowerUpOrb.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PowerUpOrb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T04:37:19.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "RandomSpawning.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\RandomSpawning.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RandomSpawning.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\RandomSpawning.cs",
               "RelativeToolTip": "Assets\\Scripts\\RandomSpawning.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-01T21:22:48.843Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Target.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\Target.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Target.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\Target.cs",
               "RelativeToolTip": "Assets\\Scripts\\Target.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T14:43:08.851Z"
+              "WhenOpened": "2026-07-31T14:43:08.851Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "IDamageable.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Interfaces\\IDamageable.cs",
               "RelativeDocumentMoniker": "Assets\\Interfaces\\IDamageable.cs",
@@ -67,7 +102,8 @@
               "RelativeToolTip": "Assets\\Interfaces\\IDamageable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T14:51:23.609Z"
+              "WhenOpened": "2026-07-31T14:51:23.609Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -77,21 +113,23 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\ArrowBehaviour.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\ArrowBehaviour.cs",
               "RelativeToolTip": "Assets\\Scripts\\ArrowBehaviour.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-30T22:10:25.521Z"
+              "WhenOpened": "2026-07-30T22:10:25.521Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "LaunchArrow.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\LaunchArrow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LaunchArrow.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\LaunchArrow.cs",
               "RelativeToolTip": "Assets\\Scripts\\LaunchArrow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAABdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-30T21:15:38.778Z"
+              "WhenOpened": "2026-07-30T21:15:38.778Z",
+              "EditorCaption": ""
             }
           ]
         }

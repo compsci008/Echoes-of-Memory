@@ -3,7 +3,7 @@ using UnityEngine;
 public class ArrowBehaviour : MonoBehaviour
 {
     [Header("General Arrow Stats")]
-    [SerializeField] private LayerMask whatDestroysArrow;
+    [SerializeField] private LayerMask whatDamagesEnemy;       // e.g. enemies
     [SerializeField] private float destroyTimer = 3f;
 
     [Header("Normal Arrow Stats")]
@@ -12,25 +12,37 @@ public class ArrowBehaviour : MonoBehaviour
 
     [Header("Pierce Arrow Stats")]
     [SerializeField] private float pierceArrowSpeed = 10f;
-    [SerializeField] private float pierceArrowDamage = 1f;
+    [SerializeField] private float pierceArrowDamage = 2f;
 
+    [Header("Split Arrow Stats")]
+    [SerializeField] private float splitArrowSpeed = 10f;
+    [SerializeField] private float splitArrowDamage = 1f;
+
+    public int currentArrowType;
     private Rigidbody2D rb;
     private float damage;
 
     public enum ArrowType
     {
         Normal,
-        Pierce
+        Pierce,
+        Split
     }
+
     public ArrowType arrowType;
-    
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    // Global selected arrow type (used by LaunchArrow)
+    public static int SelectedArrowType { get; private set; } = 1; // 1 = Normal, 2 = Pierce, 3 = Split
+
+    public static void SetSelectedArrowType(int type)
+    {
+        SelectedArrowType = type;
+    }
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-
-        SetDestoryTime();
-
+        SetDestroyTime();
         InitializeArrowStats();
     }
 
@@ -40,38 +52,40 @@ public class ArrowBehaviour : MonoBehaviour
         {
             SetStraightVelocity();
             damage = normalArrowDamage;
+            currentArrowType = 1;
         }
-
         else if (arrowType == ArrowType.Pierce)
         {
             SetPierceVelocity();
             damage = pierceArrowDamage;
+            currentArrowType = 2;
+        }
+        else if (arrowType == ArrowType.Split)
+        {
+            SetSplitVelocity();
+            damage = splitArrowDamage;
+            currentArrowType = 3;
         }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if ((whatDestroysArrow.value & (1 << collision.gameObject.layer)) > 0)
+        int layer = collision.gameObject.layer;
+
+        if ((whatDamagesEnemy.value & (1 << layer)) == 0)
+            return;
+
+        IDamageable iDamageable = collision.gameObject.GetComponent<IDamageable>();
+        if (iDamageable != null)
         {
-            //Screen Shake
+            iDamageable.Damage(damage);
+        }
 
-            //Spawn Particles
-
-            //Play sound
-
-            //Damage Enemy
-            IDamageable iDamageable = collision.gameObject.GetComponent<IDamageable>();
-            if (iDamageable != null)
-            {
-                //Damage Enemy
-                iDamageable.Damage(damage);
-            }
-
-            //Destory Arrow
+        // Only Normal and Split arrows die on first hit.
+        // Pierce arrows keep going until their timer expires.
+        if (arrowType != ArrowType.Pierce)
+        {
             Destroy(gameObject);
-
-            //Debug
-            Debug.Log("Arrow hit: " + collision.name);
         }
     }
 
@@ -85,7 +99,12 @@ public class ArrowBehaviour : MonoBehaviour
         rb.linearVelocity = transform.right * pierceArrowSpeed;
     }
 
-    private void SetDestoryTime()
+    private void SetSplitVelocity()
+    {
+        rb.linearVelocity = transform.right * splitArrowSpeed;
+    }
+
+    private void SetDestroyTime()
     {
         Destroy(gameObject, destroyTimer);
     }

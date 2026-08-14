@@ -6,6 +6,11 @@ public class RandomSpawning : MonoBehaviour
     [Header("Target")]
     [SerializeField] private GameObject spawnObject;
 
+    [Header("PowerUp Orbs")]
+    [SerializeField] private List<GameObject> orbPrefabs = new List<GameObject>();
+    [Range(0f, 1f)]
+    [SerializeField] private float orbSpawnChance = 0.2f; // 20% chance to spawn an orb
+
     [Header("Spawn Area")]
     [SerializeField] private float minXPos;
     [SerializeField] private float maxXPos;
@@ -29,18 +34,27 @@ public class RandomSpawning : MonoBehaviour
 
         if (currentSpawnTimer <= 0f)
         {
-            SpawnTarget();
+            Spawn();
             currentSpawnTimer = spawnInterval;
         }
     }
 
-    private void SpawnTarget()
+    private void Spawn()
     {
         float randomX = Random.Range(minXPos, maxXPos);
         float randomY = Random.Range(minYPos, maxYPos);
-
         Vector3 randomSpawnPosition = new Vector3(randomX, randomY, spawnZPos);
 
-        GameObject newTarget = Instantiate(spawnObject, randomSpawnPosition, Quaternion.identity);
+        if (orbPrefabs.Count > 0 && Random.value < orbSpawnChance)
+        {
+            // Spawn random orb
+            GameObject orb = orbPrefabs[Random.Range(0, orbPrefabs.Count)];
+            Instantiate(orb, randomSpawnPosition, Quaternion.identity);
+        }
+        else
+        {
+            // Spawn target
+            Instantiate(spawnObject, randomSpawnPosition, Quaternion.identity);
+        }
     }
 }
