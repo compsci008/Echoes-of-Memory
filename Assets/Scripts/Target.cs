@@ -2,11 +2,10 @@ using UnityEngine;
 
 public class Target : MonoBehaviour, IDamageable
 {
-    [SerializeField] private float maxHealth = 5f;
+    [SerializeField] private float maxHealth = 2f;
 
     private float currentHealth;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Start()
     {
         currentHealth = maxHealth;
@@ -22,6 +21,7 @@ public class Target : MonoBehaviour, IDamageable
 
         if (currentHealth <= 0)
         {
+            print("You got a target!");
             Destroy(gameObject);
         }
     }

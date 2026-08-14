@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 6285230294748040517}
   - component: {fileID: 3367177523786882808}
   - component: {fileID: 2136526415376788590}
-  - component: {fileID: -6237485099892123293}
   m_Layer: 6
   m_Name: Target_0
   m_TagString: Untagged
@@ -153,25 +152,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Target
   maxHealth: 3
---- !u!114 &-6237485099892123293
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3578227466310261905}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0c32913e6580874fa9ef5df380e63a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GameObjectSpawner
-  objectPrefab: {fileID: 3578227466310261905}
-  minObjects: 5
-  maxObjects: 10
-  minSpawnDelay: 1
-  maxSpawnDelay: 5
-  fixedSpawnHeight: 2
-  minXPosition: -5
-  maxXPosition: 5
-  minZPosition: -5
-  maxZPosition: 5
