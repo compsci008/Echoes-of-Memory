@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class KiteGameManager : MonoBehaviour
 {
+    [SerializeField] private KiteHealth kiteHealth;
+    [SerializeField] private ResultScreenUI resultScreen;
+
     private bool gameEnded;
 
     public bool GameEnded
@@ -11,7 +14,6 @@ public class KiteGameManager : MonoBehaviour
 
     private void Awake()
     {
-        // Ensures the game runs normally whenever this scene starts.
         Time.timeScale = 1f;
     }
 
@@ -24,7 +26,9 @@ public class KiteGameManager : MonoBehaviour
 
         gameEnded = true;
 
-        Debug.Log("You Win!");
+        int starsEarned = kiteHealth.CurrentLives;
+
+        resultScreen.ShowResult(starsEarned);
 
         Time.timeScale = 0f;
     }
@@ -38,7 +42,7 @@ public class KiteGameManager : MonoBehaviour
 
         gameEnded = true;
 
-        Debug.Log("You Lose!");
+        resultScreen.ShowResult(0);
 
         Time.timeScale = 0f;
     }

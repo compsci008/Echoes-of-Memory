@@ -9,6 +9,11 @@ public class KiteHealth : MonoBehaviour
 
     private int currentLives;
 
+    public int CurrentLives
+    {
+        get { return currentLives; }
+    }
+
     private void Start()
     {
         currentLives = maximumLives;
