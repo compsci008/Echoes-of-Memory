@@ -6,7 +6,18 @@ public class DirtySpot : MonoBehaviour
 
     private void Update()
     {
-        if (playerNearby && Input.GetKeyDown(KeyCode.E))
+        if (!playerNearby)
+        {
+            return;
+        }
+
+        if (GameManager.Instance == null ||
+            !GameManager.Instance.IsGameActive)
+        {
+            return;
+        }
+
+        if (Input.GetKeyDown(KeyCode.E))
         {
             GameManager.Instance.SpotCleaned();
             Destroy(gameObject);
