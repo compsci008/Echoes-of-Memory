@@ -159,7 +159,7 @@ public class GameManager : MonoBehaviour
     public void RetryGame()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("DiningRoom_Base");
+        SceneManager.LoadScene("CleaningMiniGame");
     }
  
     private void UpdateTimerText()
@@ -168,3 +168,4 @@ public class GameManager : MonoBehaviour
         timerText.text = "Time Left:\n00:" + seconds.ToString("00");
     }
 }
+ 
