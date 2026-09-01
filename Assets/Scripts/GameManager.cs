@@ -16,6 +16,9 @@ public class GameManager : MonoBehaviour
     [Header("Results Prefab (Stars)")]
     public ResultScreenUI resultScreenUI;
 
+    [Header("Dialogue")]
+    public CleaningDialogue cleaningDialogue;
+
     [Header("Audio")]
     public AudioSource cleaningAudioSource;
     public AudioSource successAudioSource;
@@ -167,6 +170,20 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene("CleaningMiniGame");
+    }
+
+    public void ContinueGame()
+    {
+        if (resultScreenUI == null || cleaningDialogue == null)
+        {
+            return;
+        }
+
+        int starsEarned = resultScreenUI.StarsEarned;
+
+        resultScreenUI.HideResult();
+
+        cleaningDialogue.StartAfterDialogue(starsEarned);
     }
 
     private void UpdateTimerText()

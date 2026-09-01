@@ -15,8 +15,13 @@ public class CleaningDialogue : MonoBehaviour
     public GameObject[] dirtySpots;
 
     private int currentLine = 0;
+    private bool showingAfterDialogue = false;
 
-    private string[] speakers =
+    private string[] currentSpeakers;
+    private string[] currentLines;
+
+    // BEFORE-GAME DIALOGUE
+    private string[] introSpeakers =
     {
         "GameMaster",
         "Maya",
@@ -26,7 +31,7 @@ public class CleaningDialogue : MonoBehaviour
         "Maya"
     };
 
-    private string[] lines =
+    private string[] introLines =
     {
         "Welcome to your first memory, Maya.",
         "This place... it feels familiar.",
@@ -38,24 +43,52 @@ public class CleaningDialogue : MonoBehaviour
 
     void Start()
     {
+        StartIntroDialogue();
+    }
+
+    void Update()
+    {
+        if (dialoguePanel.activeSelf && Input.GetKeyDown(KeyCode.Space))
+        {
+            currentLine++;
+
+            if (currentLine < currentLines.Length)
+            {
+                ShowLine();
+            }
+            else
+            {
+                if (showingAfterDialogue)
+                {
+                    EndAfterDialogue();
+                }
+                else
+                {
+                    EndIntroDialogue();
+                }
+            }
+        }
+    }
+
+    void StartIntroDialogue()
+    {
+        showingAfterDialogue = false;
         currentLine = 0;
+
+        currentSpeakers = introSpeakers;
+        currentLines = introLines;
 
         Time.timeScale = 0f;
 
-        // Stop Space from activating UI buttons during dialogue
-        if (EventSystem.current != null)
-        {
-            EventSystem.current.SetSelectedGameObject(null);
-            EventSystem.current.sendNavigationEvents = false;
-        }
+        DisableUIButtons();
 
-        // Hide gameplay Maya during dialogue
+        // Hide gameplay Maya during intro dialogue
         if (playerMaya != null)
         {
             playerMaya.SetActive(false);
         }
 
-        // Hide stains during dialogue
+        // Hide stains during intro dialogue
         foreach (GameObject spot in dirtySpots)
         {
             if (spot != null)
@@ -64,44 +97,139 @@ public class CleaningDialogue : MonoBehaviour
             }
         }
 
+        dialoguePanel.SetActive(true);
+
         ShowLine();
     }
 
-    void Update()
+    public void StartAfterDialogue(int starsEarned)
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            currentLine++;
+        showingAfterDialogue = true;
+        currentLine = 0;
 
-            if (currentLine < lines.Length)
+        SetAfterDialogue(starsEarned);
+
+        Time.timeScale = 0f;
+
+        DisableUIButtons();
+
+        // Hide gameplay Maya so only the dialogue portraits
+        // and living room background are shown
+        if (playerMaya != null)
+        {
+            playerMaya.SetActive(false);
+        }
+
+        dialoguePanel.SetActive(true);
+
+        ShowLine();
+    }
+
+    void SetAfterDialogue(int starsEarned)
+    {
+        if (starsEarned >= 3)
+        {
+            currentSpeakers = new string[]
             {
-                ShowLine();
-            }
-            else
+                "GameMaster",
+                "Maya",
+                "GameMaster",
+                "Maya",
+                "GameMaster",
+                "Maya"
+            };
+
+            currentLines = new string[]
             {
-                EndDialogue();
-            }
+                "Amazing work, Maya! You got 3 stars. Your grandma was able to remember this memory very clearly.",
+                "Really? What does she remember?",
+                "She remembers cleaning this living room every weekend while music played in the background.",
+                "She remembers that clearly?",
+                "She does. She even remembers you following her around and trying to help her clean.",
+                "Haha... that sounds like me. I'm glad Grandma can remember that again."
+            };
+        }
+        else if (starsEarned == 2)
+        {
+            currentSpeakers = new string[]
+            {
+                "GameMaster",
+                "Maya",
+                "GameMaster",
+                "Maya",
+                "GameMaster",
+                "Maya"
+            };
+
+            currentLines = new string[]
+            {
+                "Good job, Maya! You got 2 stars. Grandma is starting to remember more of this memory.",
+                "What can she remember?",
+                "She remembers cleaning this living room often, and she can remember music playing while she cleaned.",
+                "That's good! Does she remember anything else?",
+                "Some parts are still blurry, but more pieces of the memory are beginning to return.",
+                "Then we're getting there. I want to help her remember the rest too."
+            };
+        }
+        else if (starsEarned == 1)
+        {
+            currentSpeakers = new string[]
+            {
+                "GameMaster",
+                "Maya",
+                "GameMaster",
+                "Maya",
+                "GameMaster",
+                "Maya"
+            };
+
+            currentLines = new string[]
+            {
+                "You got 1 star, Maya. Some parts are still blurry, but Grandma managed to remember a little.",
+                "What does she remember?",
+                "She remembers spending time in this living room, but she can't quite remember what she was doing or who was with her.",
+                "So the memory still isn't very clear...",
+                "Not yet. But even remembering this place is a small piece of the memory returning.",
+                "Then I'll keep trying. I want to help Grandma remember more."
+            };
+        }
+        else
+        {
+            currentSpeakers = new string[]
+            {
+                "GameMaster",
+                "Maya",
+                "GameMaster",
+                "Maya",
+                "GameMaster",
+                "Maya"
+            };
+
+            currentLines = new string[]
+            {
+                "This memory is still quite blurry, Maya.",
+                "Grandma couldn't remember it?",
+                "She can recognise this living room, but she still can't remember what happened here.",
+                "Oh... I was hoping I could bring the memory back for her.",
+                "Don't give up. There are still more memories for us to restore.",
+                "You're right. I'll keep going for Grandma."
+            };
         }
     }
 
     void ShowLine()
     {
-        dialogueText.text = lines[currentLine];
+        dialogueText.text = currentLines[currentLine];
 
-        bool mayaSpeaking = speakers[currentLine] == "Maya";
+        bool mayaSpeaking = currentSpeakers[currentLine] == "Maya";
 
         mayaNameBox.SetActive(mayaSpeaking);
         gameMasterNameBox.SetActive(!mayaSpeaking);
     }
 
-    void EndDialogue()
+    void EndIntroDialogue()
     {
-        // Turn UI navigation back on
-        if (EventSystem.current != null)
-        {
-            EventSystem.current.sendNavigationEvents = true;
-            EventSystem.current.SetSelectedGameObject(null);
-        }
+        EnableUIButtons();
 
         // Reveal gameplay Maya
         if (playerMaya != null)
@@ -121,5 +249,34 @@ public class CleaningDialogue : MonoBehaviour
         dialoguePanel.SetActive(false);
 
         GameManager.Instance.BeginGame();
+    }
+
+    void EndAfterDialogue()
+    {
+        EnableUIButtons();
+
+        dialoguePanel.SetActive(false);
+
+        // Keep the game paused after the final dialogue for now.
+        // Later this can transition to the next memory/scene.
+        Time.timeScale = 0f;
+    }
+
+    void DisableUIButtons()
+    {
+        if (EventSystem.current != null)
+        {
+            EventSystem.current.SetSelectedGameObject(null);
+            EventSystem.current.sendNavigationEvents = false;
+        }
+    }
+
+    void EnableUIButtons()
+    {
+        if (EventSystem.current != null)
+        {
+            EventSystem.current.sendNavigationEvents = true;
+            EventSystem.current.SetSelectedGameObject(null);
+        }
     }
 }

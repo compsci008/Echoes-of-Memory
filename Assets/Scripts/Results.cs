@@ -12,9 +12,14 @@ public class ResultScreenUI : MonoBehaviour
     [SerializeField] private Sprite emptyStar;
     [SerializeField] private Sprite yellowStar;
 
+    public int StarsEarned { get; private set; }
+
     public void ShowResult(int starsEarned)
     {
         starsEarned = Mathf.Clamp(starsEarned, 0, 3);
+
+        // Remember the result for the after-game dialogue
+        StarsEarned = starsEarned;
 
         star1.sprite = emptyStar;
         star2.sprite = emptyStar;
