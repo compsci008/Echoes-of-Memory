@@ -18,12 +18,20 @@ public class ResultScreenUI : MonoBehaviour
     [SerializeField] private string nextSceneName;
 
     private bool canContinue = false;
+    public int StarsEarned { get; private set; }
 
     public void ShowResult(int starsEarned)
     {
         starsEarned = Mathf.Clamp(starsEarned, 0, 3);
 
-        if (starsEarned == 3)
+        // Remember the result for the after-game dialogue
+        StarsEarned = starsEarned;
+
+        star1.sprite = emptyStar;
+        star2.sprite = emptyStar;
+        star3.sprite = emptyStar;
+
+        if (starsEarned >= 1)
         {
             star1.sprite = yellowStar;
             star2.sprite = yellowStar;
