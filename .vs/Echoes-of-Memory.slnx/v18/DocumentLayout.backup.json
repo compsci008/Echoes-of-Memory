@@ -3,6 +3,46 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\BeachAfterController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\BeachAfterController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\Results.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Results.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\BeachBeforeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\BeachBeforeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\KiteGameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\KiteGameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\MinigameDialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MinigameDialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\GameTimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GameTimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\KiteHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\KiteHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\KiteCollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\KiteCollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\BirdSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\BirdSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,24 +62,136 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Results.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\Results.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Results.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\Results.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Results.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAIwFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T06:13:41.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BeachBeforeController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\BeachBeforeController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BeachBeforeController.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\BeachBeforeController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BeachBeforeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T06:12:53.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BeachAfterController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\BeachAfterController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BeachAfterController.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\BeachAfterController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BeachAfterController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T05:33:23.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T05:31:19.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KiteGameManager.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\KiteGameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\KiteGameManager.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\KiteGameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\KiteGameManager.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T13:07:48.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T13:04:44.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GameTimer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\GameTimer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameTimer.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\GameTimer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameTimer.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T12:54:27.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "KiteHealth.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\KiteHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\KiteHealth.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\KiteHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\KiteHealth.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T12:22:49.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "KiteCollision.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\KiteCollision.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\KiteCollision.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\KiteCollision.cs",
+              "RelativeToolTip": "Assets\\Scripts\\KiteCollision.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwBAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T12:16:37.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "BirdSpawner.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\BirdSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BirdSpawner.cs",
               "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\BirdSpawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\BirdSpawner.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAA8AAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-29T06:39:36.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-29T06:39:36.748Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "KiteBirdMovement.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\KiteBirdMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\KiteBirdMovement.cs",
@@ -47,16 +199,11 @@
               "RelativeToolTip": "Assets\\Scripts\\KiteBirdMovement.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-29T06:27:41.844Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2026-07-29T06:27:41.844Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "Kite.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\Kite.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Kite.cs",
@@ -64,7 +211,19 @@
               "RelativeToolTip": "Assets\\Scripts\\Kite.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAQwDQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-29T04:53:04.126Z",
+              "WhenOpened": "2026-07-29T04:53:04.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MinigameDialogue.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\MinigameDialogue.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MinigameDialogue.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\MinigameDialogue.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MinigameDialogue.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAIwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T05:19:21.171Z",
               "EditorCaption": ""
             }
           ]

@@ -9,7 +9,13 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+    path: Assets/Scenes/Beach_Before.unity
+    guid: f1d956b5f3b71474fbfc0c3b4cadbb10
+  - enabled: 1
     path: Assets/Scenes/Kite Minigame.unity
     guid: 24bd76143b0f1c94fbf7e497d6dc7f70
+  - enabled: 1
+    path: Assets/Scenes/Beach_After.unity
+    guid: f3be05a00d8422248bda48ae270a804f
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
