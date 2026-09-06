@@ -4,6 +4,7 @@
   "Documents": [
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\echoes-of-memory\\assets\\scripts\\resultscreenui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\resultscreenui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -28,6 +29,8 @@
       "RelativeMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+=======
+>>>>>>> parent of d4d7d9b (Added score and dialogue)
 =======
 >>>>>>> parent of d4d7d9b (Added score and dialogue)
       "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\assets\\scripts\\powerupmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,12 +58,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\Results.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Results.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\MinigameDialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MinigameDialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\assets\\scripts\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> parent of d4d7d9b (Added score and dialogue)
 =======
       "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\assets\\scripts\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -79,6 +87,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
 <<<<<<< HEAD
               "Title": "ResultScreenUI.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\ResultScreenUI.cs",
@@ -143,6 +152,8 @@
               "DocumentIndex": 6,
 =======
 >>>>>>> parent of d4d7d9b (Added score and dialogue)
+=======
+>>>>>>> parent of d4d7d9b (Added score and dialogue)
               "Title": "PowerUpManager.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\PowerUpManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PowerUpManager.cs",
@@ -156,7 +167,11 @@
             {
               "$type": "Document",
 <<<<<<< HEAD
+<<<<<<< HEAD
               "DocumentIndex": 10,
+=======
+              "DocumentIndex": 5,
+>>>>>>> parent of d4d7d9b (Added score and dialogue)
 =======
               "DocumentIndex": 5,
 >>>>>>> parent of d4d7d9b (Added score and dialogue)
@@ -185,7 +200,11 @@
             {
               "$type": "Document",
 <<<<<<< HEAD
+<<<<<<< HEAD
               "DocumentIndex": 2,
+=======
+              "DocumentIndex": 6,
+>>>>>>> parent of d4d7d9b (Added score and dialogue)
 =======
               "DocumentIndex": 6,
 >>>>>>> parent of d4d7d9b (Added score and dialogue)
@@ -200,6 +219,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
 <<<<<<< HEAD
               "DocumentIndex": 12,
               "Title": "MinigameDialogue.cs",
@@ -217,6 +237,9 @@
 =======
               "DocumentIndex": 2,
 >>>>>>> parent of d4d7d9b (Added score and dialogue)
+=======
+              "DocumentIndex": 2,
+>>>>>>> parent of d4d7d9b (Added score and dialogue)
               "Title": "IDamageable.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Interfaces\\IDamageable.cs",
               "RelativeDocumentMoniker": "Assets\\Interfaces\\IDamageable.cs",
@@ -230,7 +253,11 @@
             {
               "$type": "Document",
 <<<<<<< HEAD
+<<<<<<< HEAD
               "DocumentIndex": 7,
+=======
+              "DocumentIndex": 1,
+>>>>>>> parent of d4d7d9b (Added score and dialogue)
 =======
               "DocumentIndex": 1,
 >>>>>>> parent of d4d7d9b (Added score and dialogue)
@@ -247,7 +274,11 @@
             {
               "$type": "Document",
 <<<<<<< HEAD
+<<<<<<< HEAD
               "DocumentIndex": 9,
+=======
+              "DocumentIndex": 3,
+>>>>>>> parent of d4d7d9b (Added score and dialogue)
 =======
               "DocumentIndex": 3,
 >>>>>>> parent of d4d7d9b (Added score and dialogue)

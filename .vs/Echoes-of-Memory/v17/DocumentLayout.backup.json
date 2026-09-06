@@ -4,6 +4,7 @@
   "Documents": [
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\ResultScreenUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ResultScreenUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -36,6 +37,13 @@
     {
       "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\echoes-of-memory\\assets\\scripts\\powerupmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
 >>>>>>> parent of d4d7d9b (Added score and dialogue)
+=======
+      "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\echoes-of-memory\\assets\\scripts\\arrowbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arrowbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\echoes-of-memory\\assets\\scripts\\powerupmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> parent of d4d7d9b (Added score and dialogue)
       "RelativeMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\powerupmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -52,6 +60,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\assets\\scripts\\poweruporb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\poweruporb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -66,6 +75,10 @@
       "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\assets\\scripts\\randomspawning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\randomspawning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
 >>>>>>> parent of d4d7d9b (Added score and dialogue)
+=======
+      "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\assets\\scripts\\randomspawning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\randomspawning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> parent of d4d7d9b (Added score and dialogue)
     }
   ],
   "DocumentGroupContainers": [
@@ -75,6 +88,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
 <<<<<<< HEAD
           "SelectedChildIndex": 0,
           "Children": [
@@ -150,6 +164,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
 >>>>>>> parent of d4d7d9b (Added score and dialogue)
+=======
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+>>>>>>> parent of d4d7d9b (Added score and dialogue)
               "Title": "PowerUpManager.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\PowerUpManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PowerUpManager.cs",
@@ -162,6 +183,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
 <<<<<<< HEAD
               "DocumentIndex": 10,
               "Title": "PowerUpOrb.cs",
@@ -179,13 +201,20 @@
 =======
               "DocumentIndex": 5,
 >>>>>>> parent of d4d7d9b (Added score and dialogue)
+=======
+              "DocumentIndex": 5,
+>>>>>>> parent of d4d7d9b (Added score and dialogue)
               "Title": "RandomSpawning.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\RandomSpawning.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RandomSpawning.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\RandomSpawning.cs",
               "RelativeToolTip": "Assets\\Scripts\\RandomSpawning.cs",
 <<<<<<< HEAD
+<<<<<<< HEAD
               "ViewState": "AgIAACEAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+>>>>>>> parent of d4d7d9b (Added score and dialogue)
 =======
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
 >>>>>>> parent of d4d7d9b (Added score and dialogue)
@@ -200,6 +229,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Target.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\Target.cs",
               "RelativeToolTip": "Assets\\Scripts\\Target.cs",
+<<<<<<< HEAD
 <<<<<<< HEAD
               "ViewState": "AgIAAAIAAAAAAAAAAAAkwBYAAAAJAAAAAAAAAA==",
 =======
@@ -226,6 +256,16 @@
               "$type": "Document",
               "DocumentIndex": 8,
 =======
+              "DocumentIndex": 3,
+>>>>>>> parent of d4d7d9b (Added score and dialogue)
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T14:43:08.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
 >>>>>>> parent of d4d7d9b (Added score and dialogue)
               "Title": "IDamageable.cs",
