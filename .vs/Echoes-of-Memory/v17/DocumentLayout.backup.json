@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\echoes-of-memory\\assets\\scripts\\arrowbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arrowbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\assets\\scripts\\gamemanager_archery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager_archery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\echoes-of-memory\\assets\\scripts\\powerupmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\echoes-of-memory\\assets\\scripts\\archery_dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\archery_dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\echoes-of-memory\\assets\\scripts\\cleaningdialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cleaningdialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\assets\\scripts\\minigamedialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\minigamedialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\assets\\scripts\\results.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\results.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\assets\\scripts\\powerupmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\powerupmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\assets\\scripts\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\assets\\scripts\\arrowbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arrowbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\assets\\interfaces\\idamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,6 +45,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\assets\\scripts\\randomspawning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\randomspawning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\assets\\scripts\\poweruporb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\poweruporb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\assets\\scripts\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C685270D-0607-52C1-E187-5607C04C96DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,49 +62,135 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PowerUpManager.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\PowerUpManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PowerUpManager.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\PowerUpManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PowerUpManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Title": "Archery_Dialogue.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\Archery_Dialogue.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Archery_Dialogue.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\Archery_Dialogue.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Archery_Dialogue.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAkwHwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-14T04:32:56.5Z",
+              "WhenOpened": "2026-09-01T23:59:27.343Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RandomSpawning.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\RandomSpawning.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\RandomSpawning.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\RandomSpawning.cs",
-              "RelativeToolTip": "Assets\\Scripts\\RandomSpawning.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "GameManager_Archery.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\GameManager_Archery.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager_Archery.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\GameManager_Archery.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager_Archery.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADEAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T21:22:48.843Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Target.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\Target.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Target.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\Target.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Target.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T14:43:08.851Z",
+              "WhenOpened": "2026-09-01T23:41:03.284Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "MinigameDialogue.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\MinigameDialogue.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MinigameDialogue.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\MinigameDialogue.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MinigameDialogue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T23:36:15.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CleaningDialogue.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\CleaningDialogue.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CleaningDialogue.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\CleaningDialogue.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CleaningDialogue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T02:27:02.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAswLAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T02:21:12.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Results.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\Results.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Results.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\Results.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Results.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T02:18:26.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PowerUpManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\PowerUpManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PowerUpManager.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\PowerUpManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PowerUpManager.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T04:32:56.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PowerUpOrb.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\PowerUpOrb.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PowerUpOrb.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\PowerUpOrb.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PowerUpOrb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T04:37:19.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RandomSpawning.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\RandomSpawning.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RandomSpawning.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\RandomSpawning.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RandomSpawning.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T21:22:48.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Target.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\Target.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Target.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\Target.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Target.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T14:43:08.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "IDamageable.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Interfaces\\IDamageable.cs",
               "RelativeDocumentMoniker": "Assets\\Interfaces\\IDamageable.cs",
@@ -84,34 +198,31 @@
               "RelativeToolTip": "Assets\\Interfaces\\IDamageable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T14:51:23.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-31T14:51:23.609Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "ArrowBehaviour.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\ArrowBehaviour.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ArrowBehaviour.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\ArrowBehaviour.cs",
               "RelativeToolTip": "Assets\\Scripts\\ArrowBehaviour.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-30T22:10:25.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-30T22:10:25.521Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "LaunchArrow.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\LaunchArrow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LaunchArrow.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Echoes-of-Memory\\Assets\\Scripts\\LaunchArrow.cs",
               "RelativeToolTip": "Assets\\Scripts\\LaunchArrow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-30T21:15:38.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-30T21:15:38.778Z"
             }
           ]
         }
