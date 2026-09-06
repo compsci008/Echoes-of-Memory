@@ -22,7 +22,6 @@ public class Target : MonoBehaviour, IDamageable
         if (currentHealth <= 0)
         {
             print("You got a target!");
-            GameManager_Archery.Instance.TargetKilled();
             Destroy(gameObject);
         }
     }
