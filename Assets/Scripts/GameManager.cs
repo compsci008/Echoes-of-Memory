@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
     private bool gameStarted = false;
 
     private int cleanedCount = 0;
-    private int totalDirtySpots = 5;
+    private int totalDirtySpots = 8;
 
     public bool IsGameActive
     {
@@ -159,9 +159,9 @@ public class GameManager : MonoBehaviour
 
     private int CalculateStars(int cleaned)
     {
-        if (cleaned >= 5) return 3;
-        if (cleaned >= 4) return 2;
-        if (cleaned >= 2) return 1;
+        if (cleaned >= 8) return 3;
+        if (cleaned >= 6) return 2;
+        if (cleaned >= 3) return 1;
 
         return 0;
     }

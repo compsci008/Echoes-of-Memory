@@ -14,6 +14,9 @@ public class CleaningDialogue : MonoBehaviour
     public GameObject playerMaya;
     public GameObject[] dirtySpots;
 
+    [Header("Music")]
+    public GaplessLoopMusic gameMasterMusic;
+
     private int currentLine = 0;
     private bool showingAfterDialogue = false;
 
@@ -82,6 +85,12 @@ public class CleaningDialogue : MonoBehaviour
 
         DisableUIButtons();
 
+        // Start GameMaster conversation music
+        if (gameMasterMusic != null)
+        {
+            gameMasterMusic.PlayMusic();
+        }
+
         // Hide gameplay Maya during intro dialogue
         if (playerMaya != null)
         {
@@ -112,6 +121,12 @@ public class CleaningDialogue : MonoBehaviour
         Time.timeScale = 0f;
 
         DisableUIButtons();
+
+        // Start the same music for the after-game conversation
+        if (gameMasterMusic != null)
+        {
+            gameMasterMusic.PlayMusic();
+        }
 
         // Hide gameplay Maya so only the dialogue portraits
         // and living room background are shown
@@ -231,6 +246,12 @@ public class CleaningDialogue : MonoBehaviour
     {
         EnableUIButtons();
 
+        // Stop music when cleaning gameplay begins
+        if (gameMasterMusic != null)
+        {
+            gameMasterMusic.StopMusic();
+        }
+
         // Reveal gameplay Maya
         if (playerMaya != null)
         {
@@ -254,6 +275,12 @@ public class CleaningDialogue : MonoBehaviour
     void EndAfterDialogue()
     {
         EnableUIButtons();
+
+        // Stop music after the final conversation
+        if (gameMasterMusic != null)
+        {
+            gameMasterMusic.StopMusic();
+        }
 
         dialoguePanel.SetActive(false);
 
