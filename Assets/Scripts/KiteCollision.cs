@@ -4,6 +4,9 @@ public class KiteCollision : MonoBehaviour
 {
     private KiteHealth kiteHealth;
 
+    [SerializeField] private AudioSource sfxSource;
+    [SerializeField] private AudioClip hitSound;
+
     private void Awake()
     {
         kiteHealth = GetComponent<KiteHealth>();
@@ -28,6 +31,8 @@ public class KiteCollision : MonoBehaviour
         {
             birdCollider.enabled = false;
         }
+
+        sfxSource.PlayOneShot(hitSound);
 
         kiteHealth.LoseLife();
 
