@@ -18,6 +18,7 @@ public class ResultScreenUI : MonoBehaviour
     [SerializeField] private string nextSceneName;
 
     private bool canContinue = false;
+
     public int StarsEarned { get; private set; }
 
     public void ShowResult(int starsEarned)
@@ -27,33 +28,25 @@ public class ResultScreenUI : MonoBehaviour
         // Remember the result for the after-game dialogue
         StarsEarned = starsEarned;
 
+        // Start with all stars empty
         star1.sprite = emptyStar;
         star2.sprite = emptyStar;
         star3.sprite = emptyStar;
 
+        // Fill only the number of stars earned
         if (starsEarned >= 1)
         {
             star1.sprite = yellowStar;
+        }
+
+        if (starsEarned >= 2)
+        {
             star2.sprite = yellowStar;
+        }
+
+        if (starsEarned >= 3)
+        {
             star3.sprite = yellowStar;
-        }
-        else if (starsEarned == 2)
-        {
-            star1.sprite = yellowStar;
-            star2.sprite = yellowStar;
-            star3.sprite = emptyStar;
-        }
-        else if (starsEarned == 1)
-        {
-            star1.sprite = yellowStar;
-            star2.sprite = emptyStar;
-            star3.sprite = emptyStar;
-        }
-        else
-        {
-            star1.sprite = emptyStar;
-            star2.sprite = emptyStar;
-            star3.sprite = emptyStar;
         }
 
         gameObject.SetActive(true);
