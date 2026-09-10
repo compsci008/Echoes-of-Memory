@@ -25,15 +25,12 @@ public class ResultScreenUI : MonoBehaviour
     {
         starsEarned = Mathf.Clamp(starsEarned, 0, 3);
 
-        // Remember the result for the after-game dialogue
         StarsEarned = starsEarned;
 
-        // Start with all stars empty
         star1.sprite = emptyStar;
         star2.sprite = emptyStar;
         star3.sprite = emptyStar;
 
-        // Fill only the number of stars earned
         if (starsEarned >= 1)
         {
             star1.sprite = yellowStar;
@@ -55,7 +52,9 @@ public class ResultScreenUI : MonoBehaviour
 
     private void Update()
     {
-        if (!canContinue)
+        // Only use automatic mouse-to-next-scene behaviour
+        // when a next scene has actually been assigned.
+        if (!canContinue || string.IsNullOrEmpty(nextSceneName))
         {
             return;
         }
@@ -63,18 +62,12 @@ public class ResultScreenUI : MonoBehaviour
         if (Mouse.current != null &&
             Mouse.current.leftButton.wasPressedThisFrame)
         {
-            ContinueGame();
+            ContinueToNextScene();
         }
     }
 
-    private void ContinueGame()
+    private void ContinueToNextScene()
     {
-        if (string.IsNullOrEmpty(nextSceneName))
-        {
-            Debug.LogError("Next Scene Name has not been set.");
-            return;
-        }
-
         canContinue = false;
 
         Time.timeScale = 1f;

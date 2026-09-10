@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 public class CleaningDialogue : MonoBehaviour
 {
@@ -85,19 +86,16 @@ public class CleaningDialogue : MonoBehaviour
 
         DisableUIButtons();
 
-        // Start GameMaster conversation music
         if (gameMasterMusic != null)
         {
             gameMasterMusic.PlayMusic();
         }
 
-        // Hide gameplay Maya during intro dialogue
         if (playerMaya != null)
         {
             playerMaya.SetActive(false);
         }
 
-        // Hide stains during intro dialogue
         foreach (GameObject spot in dirtySpots)
         {
             if (spot != null)
@@ -122,14 +120,11 @@ public class CleaningDialogue : MonoBehaviour
 
         DisableUIButtons();
 
-        // Start the same music for the after-game conversation
         if (gameMasterMusic != null)
         {
             gameMasterMusic.PlayMusic();
         }
 
-        // Hide gameplay Maya so only the dialogue portraits
-        // and living room background are shown
         if (playerMaya != null)
         {
             playerMaya.SetActive(false);
@@ -246,19 +241,16 @@ public class CleaningDialogue : MonoBehaviour
     {
         EnableUIButtons();
 
-        // Stop music when cleaning gameplay begins
         if (gameMasterMusic != null)
         {
             gameMasterMusic.StopMusic();
         }
 
-        // Reveal gameplay Maya
         if (playerMaya != null)
         {
             playerMaya.SetActive(true);
         }
 
-        // Reveal stains
         foreach (GameObject spot in dirtySpots)
         {
             if (spot != null)
@@ -276,7 +268,6 @@ public class CleaningDialogue : MonoBehaviour
     {
         EnableUIButtons();
 
-        // Stop music after the final conversation
         if (gameMasterMusic != null)
         {
             gameMasterMusic.StopMusic();
@@ -284,9 +275,9 @@ public class CleaningDialogue : MonoBehaviour
 
         dialoguePanel.SetActive(false);
 
-        // Keep the game paused after the final dialogue for now.
-        // Later this can transition to the next memory/scene.
-        Time.timeScale = 0f;
+        Time.timeScale = 1f;
+
+        SceneManager.LoadScene("Beach_Before");
     }
 
     void DisableUIButtons()

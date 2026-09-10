@@ -8656,9 +8656,25 @@ PrefabInstance:
       value: Result Screen
       objectReference: {fileID: 0}
     - target: {fileID: 8590015983019515523, guid: 3fb803ac5ffbc46a49fc117783d46569, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8590015983019515523, guid: 3fb803ac5ffbc46a49fc117783d46569, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 111409839}
+    - target: {fileID: 8590015983019515523, guid: 3fb803ac5ffbc46a49fc117783d46569, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 111409839}
+    - target: {fileID: 8590015983019515523, guid: 3fb803ac5ffbc46a49fc117783d46569, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ContinueGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 8590015983019515523, guid: 3fb803ac5ffbc46a49fc117783d46569, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

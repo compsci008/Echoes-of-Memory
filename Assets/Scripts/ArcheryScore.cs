@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
-using UnityEngine.SceneManagement;
 
 public class ArcheryScore : MonoBehaviour
 {
@@ -14,46 +13,35 @@ public class ArcheryScore : MonoBehaviour
     [SerializeField] private Sprite emptyStar;
     [SerializeField] private Sprite yellowStar;
 
-    [Header("Scene Transition")]
-    [SerializeField] private string nextSceneName;
-
     private bool canContinue = false;
+
     public int StarsEarned { get; private set; }
 
     public void ShowResult(int starsEarned)
     {
         starsEarned = Mathf.Clamp(starsEarned, 0, 3);
 
-        // Remember the result for the after-game dialogue
         StarsEarned = starsEarned;
 
+        // Start with all stars empty
         star1.sprite = emptyStar;
         star2.sprite = emptyStar;
         star3.sprite = emptyStar;
 
+        // Fill only the number of stars actually earned
         if (starsEarned >= 1)
         {
             star1.sprite = yellowStar;
+        }
+
+        if (starsEarned >= 2)
+        {
             star2.sprite = yellowStar;
+        }
+
+        if (starsEarned >= 3)
+        {
             star3.sprite = yellowStar;
-        }
-        else if (starsEarned == 2)
-        {
-            star1.sprite = yellowStar;
-            star2.sprite = yellowStar;
-            star3.sprite = emptyStar;
-        }
-        else if (starsEarned == 1)
-        {
-            star1.sprite = yellowStar;
-            star2.sprite = emptyStar;
-            star3.sprite = emptyStar;
-        }
-        else
-        {
-            star1.sprite = emptyStar;
-            star2.sprite = emptyStar;
-            star3.sprite = emptyStar;
         }
 
         gameObject.SetActive(true);
@@ -76,17 +64,21 @@ public class ArcheryScore : MonoBehaviour
 
     private void ContinueGame()
     {
-        if (string.IsNullOrEmpty(nextSceneName))
-        {
-            Debug.LogError("Next Scene Name has not been set.");
-            return;
-        }
-
         canContinue = false;
 
-        Time.timeScale = 1f;
+        // Hide result screen
+        gameObject.SetActive(false);
 
-        SceneManager.LoadScene(nextSceneName);
+        // Start Pine's after-game dialogue
+        if (GameManager_Archery.Instance != null &&
+            GameManager_Archery.Instance.archeryDialogue != null)
+        {
+            GameManager_Archery.Instance.archeryDialogue.StartAfterDialogue(StarsEarned);
+        }
+        else
+        {
+            Debug.LogError("ArcheryDialogue has not been assigned.");
+        }
     }
 
     public void HideResult()
