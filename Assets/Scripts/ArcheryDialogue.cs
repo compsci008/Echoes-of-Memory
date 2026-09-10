@@ -1,9 +1,9 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 public class ArcheryDialogue : MonoBehaviour
-
 {
     public GameObject dialoguePanel;
     public TMP_Text dialogueText;
@@ -13,6 +13,9 @@ public class ArcheryDialogue : MonoBehaviour
 
     [Header("Gameplay Objects")]
     public GameObject playerMaya;
+
+    [Header("Music")]
+    public GaplessLoopMusic gameMasterMusic;
 
     private int currentLine = 0;
     private bool showingAfterDialogue = false;
@@ -33,11 +36,11 @@ public class ArcheryDialogue : MonoBehaviour
 
     private string[] introLines =
     {
-        "Welcome to your second memory, Maya.",
+        "Welcome to your 3rd memory, Maya.",
         "This place... it feels familiar.",
         "Your grandmother spent many days here with her friends. But the memory is beginning to fade.",
         "So how do I restore it?",
-        "Shoot the targets before time runs out. Mouse over them and click. I left abilities orbs, shoot them to get different powers to help you. The colors mean different abilities.",
+        "Shoot the targets before time runs out. Mouse over them and click. I left abilities orbs, blue pierces, red splits your arrows.",
         "Alright. I'll do my best."
     };
 
@@ -82,7 +85,11 @@ public class ArcheryDialogue : MonoBehaviour
 
         DisableUIButtons();
 
-        // Hide gameplay Maya during intro dialogue
+        if (gameMasterMusic != null)
+        {
+            gameMasterMusic.PlayMusic();
+        }
+
         if (playerMaya != null)
         {
             playerMaya.SetActive(false);
@@ -104,7 +111,11 @@ public class ArcheryDialogue : MonoBehaviour
 
         DisableUIButtons();
 
-        // Hide gameplay Maya so only the dialogue portraits
+        if (gameMasterMusic != null)
+        {
+            gameMasterMusic.PlayMusic();
+        }
+        
         if (playerMaya != null)
         {
             playerMaya.SetActive(false);
@@ -158,7 +169,7 @@ public class ArcheryDialogue : MonoBehaviour
                 "She remembers shooting the arrows and the cheers!",
                 "That's good! Does she remember anything else?",
                 "Some parts are still blurry, but more pieces of the memory are beginning to return.",
-                "Then we're getting there. I want to help her remember the rest too."
+                "That's good to hear."
             };
         }
         else if (starsEarned == 1)
@@ -180,7 +191,7 @@ public class ArcheryDialogue : MonoBehaviour
                 "She remembers shooting arrows, but she can't quite remember what happened after.",
                 "So the memory still isn't very clear...",
                 "Not yet. But even remembering this place is a small piece of the memory returning.",
-                "Then I'll keep trying. I want to help Grandma remember more."
+                "That's good to hear."
             };
         }
         else
@@ -201,8 +212,8 @@ public class ArcheryDialogue : MonoBehaviour
                 "Grandma couldn't remember it?",
                 "She can recognise the school, but she still can't remember what happened here.",
                 "Oh... I was hoping I could bring the memory back for her.",
-                "Don't give up. There are still more memories for us to restore.",
-                "You're right. I'll keep going for Grandma."
+                "Don't give up. You can always retry.",
+                "You're right. I'll keep trying for Grandma."
             };
         }
     }
@@ -221,7 +232,11 @@ public class ArcheryDialogue : MonoBehaviour
     {
         EnableUIButtons();
 
-        // Reveal gameplay Maya
+        if (gameMasterMusic != null)
+        {
+            gameMasterMusic.StopMusic();
+        }
+
         if (playerMaya != null)
         {
             playerMaya.SetActive(true);
@@ -236,11 +251,17 @@ public class ArcheryDialogue : MonoBehaviour
     {
         EnableUIButtons();
 
+        if (gameMasterMusic != null)
+        {
+            gameMasterMusic.StopMusic();
+        }
+
         dialoguePanel.SetActive(false);
 
-        // Keep the game paused after the final dialogue for now.
-        // Later this can transition to the next memory/scene.
         Time.timeScale = 0f;
+
+        // Load next scene here.
+        SceneManager.LoadScene("Beach_Before");
     }
 
     void DisableUIButtons()

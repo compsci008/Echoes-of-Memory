@@ -31,8 +31,8 @@ public class GameManager_Archery : MonoBehaviour
     [Header("Score")]
     public int score = 0;
 
-    private bool gameEnded = false;
-    private bool gameStarted = false;
+    private bool gameEnded;
+    private bool gameStarted;
 
     public bool IsGameActive
     {
@@ -41,6 +41,13 @@ public class GameManager_Archery : MonoBehaviour
 
     private void Awake()
     {
+        // Prevent multiple GameManager_Archery objects.
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
         Instance = this;
 
         Time.timeScale = 1f;
@@ -65,7 +72,7 @@ public class GameManager_Archery : MonoBehaviour
 
     private void Update()
     {
-        if (!gameStarted || gameEnded)
+        if (!IsGameActive)
         {
             return;
         }
@@ -77,9 +84,7 @@ public class GameManager_Archery : MonoBehaviour
             timeRemaining = 0f;
 
             UpdateTimerText();
-
-            EndGame();
-
+            EndGame(false);
             return;
         }
 
@@ -88,7 +93,13 @@ public class GameManager_Archery : MonoBehaviour
 
     public void BeginGame()
     {
+        if (gameStarted || gameEnded)
+        {
+            return;
+        }
+
         gameStarted = true;
+        Time.timeScale = 1f;
 
         if (timerText != null)
         {
@@ -99,8 +110,6 @@ public class GameManager_Archery : MonoBehaviour
         {
             backgroundMusicAudioSource.Play();
         }
-
-        Time.timeScale = 1f;
     }
 
     public void TargetHit()
@@ -124,15 +133,26 @@ public class GameManager_Archery : MonoBehaviour
         }
 
         score++;
-
         UpdateScoreText();
 
         Debug.Log("Score: " + score);
+
+        if (score >= 15)
+        {
+            EndGame(true);
+        }
     }
 
-    private void EndGame()
+    private void EndGame(bool playerWon)
     {
+        // Prevent EndGame from running more than once.
+        if (gameEnded)
+        {
+            return;
+        }
+
         gameEnded = true;
+        gameStarted = false;
 
         if (timerText != null)
         {
@@ -146,11 +166,11 @@ public class GameManager_Archery : MonoBehaviour
 
         int starsEarned = CalculateStars(score);
 
-        if (starsEarned > 0)
+        if (playerWon)
         {
             if (titleText != null)
             {
-                titleText.text = "MINI-GAME OVER!";
+                titleText.text = "MINI-GAME COMPLETE!";
                 titleText.color = Color.green;
             }
 
@@ -204,8 +224,31 @@ public class GameManager_Archery : MonoBehaviour
     public void RetryGame()
     {
         Time.timeScale = 1f;
+        SceneManager.LoadScene("Archery Mini game");
+    }
 
-        SceneManager.LoadScene("ArcheryMiniGame");
+    public void ContinueGame()
+    {
+        if (archeryScore == null)
+        {
+            Debug.LogWarning("ArcheryScore is not assigned.");
+            return;
+        }
+
+        if (archeryDialogue == null)
+        {
+            Debug.LogWarning("ArcheryDialogue is not assigned.");
+            return;
+        }
+
+        int starsEarned = archeryScore.StarsEarned;
+
+        archeryScore.HideResult();
+
+        // EndGame paused the game, so restore normal time.
+        Time.timeScale = 1f;
+
+        archeryDialogue.StartAfterDialogue(starsEarned);
     }
 
     private void UpdateScoreText()
@@ -218,11 +261,12 @@ public class GameManager_Archery : MonoBehaviour
 
     private void UpdateTimerText()
     {
-        if (timerText != null)
+        if (timerText == null)
         {
-            int seconds = Mathf.CeilToInt(timeRemaining);
-
-            timerText.text = "Time Left:\n00:" + seconds.ToString("00");
+            return;
         }
+
+        int seconds = Mathf.CeilToInt(timeRemaining);
+        timerText.text = "Time Left:\n00:" + seconds.ToString("00");
     }
 }
