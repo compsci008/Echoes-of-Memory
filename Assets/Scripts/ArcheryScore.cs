@@ -1,6 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
+<<<<<<< Updated upstream
 using UnityEngine.InputSystem;
+=======
+>>>>>>> Stashed changes
 using UnityEngine.SceneManagement;
 
 public class ArcheryScore : MonoBehaviour
@@ -60,13 +63,17 @@ public class ArcheryScore : MonoBehaviour
         canContinue = true;
     }
 
-    private void Update()
+    public void ContinueGame()
     {
+        Debug.Log("CONTINUE BUTTON PRESSED");
+
         if (!canContinue)
         {
+            Debug.Log("Continue blocked because canContinue is false.");
             return;
         }
 
+<<<<<<< Updated upstream
         if (Mouse.current != null &&
             Mouse.current.leftButton.wasPressedThisFrame)
         {
@@ -87,7 +94,34 @@ public class ArcheryScore : MonoBehaviour
         Time.timeScale = 1f;
 
         SceneManager.LoadScene(nextSceneName);
+=======
+        canContinue = false;
+        gameObject.SetActive(false);
+
+        if (GameManager_Archery.Instance != null &&
+            GameManager_Archery.Instance.archeryDialogue != null)
+        {
+            GameManager_Archery.Instance.archeryDialogue.StartAfterDialogue(StarsEarned);
+        }
+        else
+        {
+            Debug.LogError("ArcheryDialogue has not been assigned.");
+        }
+>>>>>>> Stashed changes
     }
+
+    public void RetryGame()
+    {
+        Debug.Log("RETRY BUTTON PRESSED");
+
+        canContinue = false;
+
+        Time.timeScale = 1f;
+
+        Debug.Log("Reloading scene: " + SceneManager.GetActiveScene().name);
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    
 
     public void HideResult()
     {

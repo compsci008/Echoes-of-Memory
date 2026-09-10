@@ -1,6 +1,7 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 public class ArcheryDialogue : MonoBehaviour
 
@@ -13,6 +14,8 @@ public class ArcheryDialogue : MonoBehaviour
 
     [Header("Gameplay Objects")]
     public GameObject playerMaya;
+
+    public GaplessLoopMusic gameMasterMusic;
 
     private int currentLine = 0;
     private bool showingAfterDialogue = false;
@@ -82,6 +85,11 @@ public class ArcheryDialogue : MonoBehaviour
 
         DisableUIButtons();
 
+        if (gameMasterMusic != null)
+        {
+            gameMasterMusic.PlayMusic();
+        }
+
         // Hide gameplay Maya during intro dialogue
         if (playerMaya != null)
         {
@@ -103,6 +111,11 @@ public class ArcheryDialogue : MonoBehaviour
         Time.timeScale = 0f;
 
         DisableUIButtons();
+
+        if (gameMasterMusic != null)
+        {
+            gameMasterMusic.PlayMusic();
+        }
 
         // Hide gameplay Maya so only the dialogue portraits
         if (playerMaya != null)
@@ -221,6 +234,11 @@ public class ArcheryDialogue : MonoBehaviour
     {
         EnableUIButtons();
 
+        if (gameMasterMusic != null)
+        {
+            gameMasterMusic.StopMusic();
+        }
+
         // Reveal gameplay Maya
         if (playerMaya != null)
         {
@@ -229,6 +247,9 @@ public class ArcheryDialogue : MonoBehaviour
 
         dialoguePanel.SetActive(false);
 
+        // Resume time
+        Time.timeScale = 1f;
+
         GameManager_Archery.Instance.BeginGame();
     }
 
@@ -236,11 +257,15 @@ public class ArcheryDialogue : MonoBehaviour
     {
         EnableUIButtons();
 
+        if (gameMasterMusic != null)
+        {
+            gameMasterMusic.StopMusic();
+        }
+
         dialoguePanel.SetActive(false);
 
-        // Keep the game paused after the final dialogue for now.
-        // Later this can transition to the next memory/scene.
-        Time.timeScale = 0f;
+        // Resume the game
+        Time.timeScale = 1f;
     }
 
     void DisableUIButtons()
