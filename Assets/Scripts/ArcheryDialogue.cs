@@ -115,7 +115,7 @@ public class ArcheryDialogue : MonoBehaviour
         {
             gameMasterMusic.PlayMusic();
         }
-        
+
         if (playerMaya != null)
         {
             playerMaya.SetActive(false);
@@ -249,8 +249,6 @@ public class ArcheryDialogue : MonoBehaviour
 
     void EndAfterDialogue()
     {
-        EnableUIButtons();
-
         if (gameMasterMusic != null)
         {
             gameMasterMusic.StopMusic();
@@ -258,10 +256,9 @@ public class ArcheryDialogue : MonoBehaviour
 
         dialoguePanel.SetActive(false);
 
-        Time.timeScale = 0f;
+        Time.timeScale = 1f;
 
-        // Load next scene here.
-        SceneManager.LoadScene("Beach_Before");
+        SceneManager.LoadScene("EndingBedroomScene");
     }
 
     void DisableUIButtons()

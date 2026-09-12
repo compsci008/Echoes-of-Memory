@@ -457,7 +457,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 8759540873a46c144a0faf940f498787, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.1
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1134,7 +1134,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 1.2047839
+  m_Mass: 1.2047837
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 0
@@ -1695,6 +1695,7 @@ MonoBehaviour:
   kiteHealth: {fileID: 1244464528}
   resultScreen: {fileID: 1867653724}
   sfxSource: {fileID: 239842003}
+  backgroundMusicSource: {fileID: 1580033191}
   winSound: {fileID: 8300000, guid: 222c17fe3ff854ffdb37201655526455, type: 3}
   loseSound: {fileID: 8300000, guid: 51ffe0c3a552c479f8e21c6d576c9319, type: 3}
 --- !u!114 &1490461306 stripped
@@ -1753,7 +1754,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 480f2abcda9354a0886cd42850c6afee, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.2
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0

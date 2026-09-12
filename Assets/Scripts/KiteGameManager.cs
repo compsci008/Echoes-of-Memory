@@ -7,6 +7,7 @@ public class KiteGameManager : MonoBehaviour
 
     [Header("Sound")]
     [SerializeField] private AudioSource sfxSource;
+    [SerializeField] private AudioSource backgroundMusicSource;
     [SerializeField] private AudioClip winSound;
     [SerializeField] private AudioClip loseSound;
 
@@ -33,6 +34,14 @@ public class KiteGameManager : MonoBehaviour
         int starsEarned = kiteHealth.CurrentLives;
         StarsEarned = starsEarned;
 
+        // SAVE KITE STARS FOR THE ENDING
+        MemoryScoreTracker.SetKiteStars(starsEarned);
+
+        if (backgroundMusicSource != null)
+        {
+            backgroundMusicSource.Stop();
+        }
+
         if (starsEarned >= 2)
         {
             sfxSource.PlayOneShot(winSound);
@@ -52,6 +61,14 @@ public class KiteGameManager : MonoBehaviour
 
         gameEnded = true;
         StarsEarned = 0;
+
+        // SAVE 0 KITE STARS FOR THE ENDING
+        MemoryScoreTracker.SetKiteStars(0);
+
+        if (backgroundMusicSource != null)
+        {
+            backgroundMusicSource.Stop();
+        }
 
         sfxSource.PlayOneShot(loseSound);
 

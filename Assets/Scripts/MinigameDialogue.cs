@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class MinigameDialogue : MonoBehaviour
 {
@@ -13,6 +14,9 @@ public class MinigameDialogue : MonoBehaviour
     public string[] dialogueLines;
 
     public string[] speakers;
+
+    [Header("Scene Transition")]
+    [SerializeField] private string nextSceneName;
 
     private int currentLine = 0;
 
@@ -34,8 +38,19 @@ public class MinigameDialogue : MonoBehaviour
             }
             else
             {
-                dialoguePanel.SetActive(false);
+                EndDialogue();
             }
+        }
+    }
+
+    void EndDialogue()
+    {
+        dialoguePanel.SetActive(false);
+
+        if (!string.IsNullOrEmpty(nextSceneName))
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene(nextSceneName);
         }
     }
 

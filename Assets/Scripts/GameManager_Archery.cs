@@ -41,7 +41,6 @@ public class GameManager_Archery : MonoBehaviour
 
     private void Awake()
     {
-        // Prevent multiple GameManager_Archery objects.
         if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
@@ -145,7 +144,6 @@ public class GameManager_Archery : MonoBehaviour
 
     private void EndGame(bool playerWon)
     {
-        // Prevent EndGame from running more than once.
         if (gameEnded)
         {
             return;
@@ -165,6 +163,9 @@ public class GameManager_Archery : MonoBehaviour
         }
 
         int starsEarned = CalculateStars(score);
+
+        // SAVE ARCHERY STARS FOR THE ENDING
+        MemoryScoreTracker.SetArcheryStars(starsEarned);
 
         if (playerWon)
         {
@@ -245,7 +246,6 @@ public class GameManager_Archery : MonoBehaviour
 
         archeryScore.HideResult();
 
-        // EndGame paused the game, so restore normal time.
         Time.timeScale = 1f;
 
         archeryDialogue.StartAfterDialogue(starsEarned);

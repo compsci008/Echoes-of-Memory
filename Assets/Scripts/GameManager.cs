@@ -128,6 +128,9 @@ public class GameManager : MonoBehaviour
 
         int starsEarned = CalculateStars(cleanedCount);
 
+        // SAVE CLEANING STARS FOR THE ENDING
+        MemoryScoreTracker.SetCleaningStars(starsEarned);
+
         if (playerWon)
         {
             titleText.text = "ROOM CLEANED!";

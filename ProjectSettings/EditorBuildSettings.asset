@@ -32,5 +32,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Archery Mini game.unity
     guid: afdbda594c842834e94e6fde58b17ede
+  - enabled: 1
+    path: Assets/Scenes/EndingBedroomScene.unity
+    guid: c3e2342592a984275b0007307e002278
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
